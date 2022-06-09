@@ -10,7 +10,6 @@ import SwiftUI
 
 struct DetailsView: View {
 
-//    Öncelikler FavoriteElement'ten bir değişken oluşturcaz.
     var chosenFavoriteElement : FavoriteElements
     
     var body: some View {

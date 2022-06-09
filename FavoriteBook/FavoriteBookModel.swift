@@ -5,7 +5,6 @@
 //  Created by Bilal Yalcin on 3.05.2022.
 //
 
-// Öncelikle Listede tıklandıgında diger ekrana gitmesi için gerekli id'ler lazım bu id'ler için bir model olusturacagız onu da normal swift dosyası içinde yapıp identifiable ile swiftUI dosyamıza atacagız.
 
 import Foundation
 import SwiftUI
@@ -38,5 +37,4 @@ let killbill = FavoriteElements(name: "Kill Bill", imagename: "killbill", descri
 
 let favoriteMovies = FavoriteModel(title: "Favorite Movies", elements: [pulpfiction,thedarkknight,killbill])
 
-// Son olarak olusturdugumuz favori modelleri bir dizi içersine koyuyoruz.
 let myFavorites = [favoriteBands,favoriteMovies]
