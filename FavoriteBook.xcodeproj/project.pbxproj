@@ -11,6 +11,8 @@
 		C32B2382282170EC001BE385 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B2381282170EC001BE385 /* ContentView.swift */; };
 		C32B2384282170ED001BE385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32B2383282170ED001BE385 /* Assets.xcassets */; };
 		C32B2387282170ED001BE385 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32B2386282170ED001BE385 /* Preview Assets.xcassets */; };
+		C32B238E28217308001BE385 /* FavoriteBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B238D28217308001BE385 /* FavoriteBookModel.swift */; };
+		C32B2390282190B0001BE385 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B238F282190B0001BE385 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C32B2381282170EC001BE385 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C32B2383282170ED001BE385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32B2386282170ED001BE385 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C32B238D28217308001BE385 /* FavoriteBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookModel.swift; sourceTree = "<group>"; };
+		C32B238F282190B0001BE385 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C32B237F282170EC001BE385 /* FavoriteBookApp.swift */,
 				C32B2381282170EC001BE385 /* ContentView.swift */,
+				C32B238D28217308001BE385 /* FavoriteBookModel.swift */,
+				C32B238F282190B0001BE385 /* DetailsView.swift */,
 				C32B2383282170ED001BE385 /* Assets.xcassets */,
 				C32B2385282170ED001BE385 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32B2382282170EC001BE385 /* ContentView.swift in Sources */,
+				C32B2390282190B0001BE385 /* DetailsView.swift in Sources */,
+				C32B238E28217308001BE385 /* FavoriteBookModel.swift in Sources */,
 				C32B2380282170EC001BE385 /* FavoriteBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
