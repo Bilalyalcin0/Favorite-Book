@@ -4,7 +4,7 @@
 //
 //  Created by Bilal Yalcin on 3.05.2022.
 //
-//Favorilerimize tıklandıgında detaylarını almak için gereken DetailsView'u da olusturduk.
+
 
 import SwiftUI
 
